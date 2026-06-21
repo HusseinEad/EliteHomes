@@ -527,6 +527,18 @@ textarea {
     rgb(127, 34, 254)
   );
 }
+.bg-linear::after{
+    content: "";
+  position: absolute;
+  bottom: 70px;
+  left: 70px;
+  width: 100px;
+  height: 100px;
+  border: 5px solid rgb(201, 169, 247);; 
+  border-radius: 50%;
+
+   
+}
 .contact-us button {
   transition: all 0.4s;
 }
@@ -614,6 +626,9 @@ footer span:hover {
       .arrow {
     visibility: hidden;
 }
+.circ::after{
+ visibility: hidden;
+}
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -628,6 +643,9 @@ footer span:hover {
   }
     .arrow {
     visibility: hidden;
+}
+.circ::after{
+ visibility: hidden;
 }
 }
 
@@ -672,10 +690,14 @@ display: none;
 display: none;
 }
 
-
+.circ::after{
+ visibility: hidden;
+}
 
   .arrow {
     visibility: hidden;
 }
+
+
 }
 
