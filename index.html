@@ -37,7 +37,8 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="fa-solid fa-bars open-bars"></span>
+          <span class="fa-solid fa-xmark closed-x"></span>
         </button>
         <div class="collapse pr-5 navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav fw-semibold ms-auto mb-2 mb-lg-0">
@@ -334,7 +335,7 @@
                 <div class="col-lg-3 col-6">
                   <label for="minFt" class="form-label">Min Sq Ft</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control py-3"
                     id="minFt"
                     placeholder="1000"
@@ -375,20 +376,20 @@
                 </div>
                 <div class="col-lg-3 col-6">
                   <div class="inner-form p-4 text-white">
-                    <h5 class="fs-2 fw-semibold">15000+</h5>
-                    <p class="">Active Listings</p>
+                    <h5 class="fs-2 fw-semibold">98%</h5>
+                    <p class="">Client Satisfaction</p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-6">
                   <div class="inner-form p-4 text-white">
-                    <h5 class="fs-2 fw-semibold">15000+</h5>
-                    <p class="">Active Listings</p>
+                    <h5 class="fs-2 fw-semibold">500+</h5>
+                    <p class="">Expert Agents</p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-6">
                   <div class="inner-form p-4 text-white">
-                    <h5 class="fs-2 fw-semibold">15000+</h5>
-                    <p class="">Active Listings</p>
+                    <h5 class="fs-2 fw-semibold">25</h5>
+                    <p class="">Years Experience</p>
                   </div>
                 </div>
               </div>
@@ -423,7 +424,7 @@
                   />
                   <div class=" ">
                     <div
-                      class="feat position-absolute top-0 start-0 m-3 py-1 px-3 bg-purple text-white fw-bolder rounded-pill"
+                      class="feat position-absolute top-0 start-0 m-3 py-1 px-3 bg-purple text-white  rounded-pill"
                     >
                       <p class="m-0">Featured</p>
                     </div>
@@ -491,7 +492,7 @@
                   />
                   <div class=" ">
                     <div
-                      class="feat position-absolute top-0 start-0 m-3 py-1 px-3 bg-success bg-opacity-75 text-white fw-bolder rounded-pill"
+                      class="feat position-absolute top-0 start-0 m-3 py-1 px-3 bg-success bg-opacity-75 text-white  rounded-pill"
                     >
                       <p class="m-0">New Listing</p>
                     </div>
@@ -558,9 +559,9 @@
                   />
                   <div class=" ">
                     <div
-                      class="feat position-absolute top-0 start-0 m-3 py-1 px-3 bg-purple text-white  rounded-pill"
+                      class="feat position-absolute top-0 start-0 m-3 py-1 px-3 bg-warning text-white  rounded-pill"
                     >
-                      <p class="m-0">Featured</p>
+                      <p class="m-0">Price Drop</p>
                     </div>
                     <div
                       class="love position-absolute top-0 end-0 m-3 py-2 px-1 bg-white text-white fw-bolder rounded-top-pill rounded-bottom-pill"
@@ -632,7 +633,7 @@
     <section class="services headding-section py-5" id="services">
       <div class="container">
         <div class="title">
-          <div class="title-box">
+          <div class="title-box text-uppercase">
             <span>What We Offer</span>
           </div>
 
@@ -1361,8 +1362,8 @@
                     <div class="ms-3 text-start">
                       <h6 class="mb-0 fw-bolder">Michael Foster</h6>
                       <p class="mb-0 text-muted">CEO, TechStart Inc.</p>
-                      <span class="text-muted">15,000 sq ft Office Lease</span>
-                    </div>
+                      <span class="text-muted"> sq ft Office Lease</span>
+                    </div>15,000
                   </div>
                 </div>
               </div>
@@ -1420,7 +1421,7 @@
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseOne"
                 >
                   How do I know if I'm ready to buy a home?
@@ -1428,7 +1429,7 @@
               </h3>
               <div
                 id="collapseOne"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse "
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body py-4">
